@@ -1,0 +1,127 @@
+.navigation{
+	background-color: white;
+	display: flex;
+	width: 100%;
+	padding: 1rem 6rem;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%);
+}
+
+.navigation-logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.navigation-logo-body{
+	font-size: 1.7rem;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: black;
+	line-height: .9em;
+	letter-spacing: -.02em;
+}
+
+.nav{
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+	padding: 0;
+}
+
+
+.nav-items{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.col{
+    width: 45%;
+    padding: 10px;
+}
+
+.button {
+	background: #555;
+	padding: 10px 15px;
+    margin-top: 23px;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+.button:hover{
+	opacity: .7;
+}
+
+.logout-button{
+    background: red;
+	padding: 10px 15px;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+form {
+	width: 100%;
+	padding: 17px;
+	background: #fff;
+	border-radius: 15px;
+}
+
+input {
+	display: block;
+	border: 1px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+label {
+	color: #888;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 100 !important;
+}
+
+select {
+	display: block;
+	border: 2px solid #ccc;
+	width: 100%;
+	padding: 11px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.mb-9{
+	margin-bottom: 26px;
+}
